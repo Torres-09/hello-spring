@@ -1,7 +1,9 @@
 # Spring Boot introduction<br>
 ### 해당 repository는 Spring Boot Study입니다.
 ***
-<ul>
-    <li>프로젝트 환경설정</li>
-    <li>스프링 웹 개발 기초 ( 정적 컨텐츠, MVC와 템플릿 엔진, API )</li>
-</ul>
+- 프로젝트 환경설정
+- 스프링 웹 개발 기초 ( 정적 컨텐츠, MVC와 템플릿 엔진, API )
+- 회원 관리 예제 - 백 엔드 개발
+    - 비즈니스 요구사항 정리
+    - 회원 도메인과 리포지토리 만들기
+    
