@@ -11,4 +11,6 @@ public interface MemberRepository {
     Optional<Member> findById(Long id);
     Optional<Member> findByName(String name);
     List<Member> findAll();
+
+    // Optional null 예외처리하기 위한 JAVA8의 기능이다.
 }
