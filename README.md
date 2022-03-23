@@ -21,6 +21,7 @@
       ![img_1.png](img_1.png)
       ![img_2.png](img_2.png)
       ![img_3.png](img_3.png)
-      
-      
+    - 자바 코드로 직접 스프링 빈 등록하기
+      ![img_8.png](img_8.png)
+      ![img_9.png](img_9.png)
       

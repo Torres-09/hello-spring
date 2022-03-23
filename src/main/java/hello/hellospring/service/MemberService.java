@@ -10,11 +10,11 @@ import java.util.List;
 import java.util.Optional;
 
 // ctrl + shift + t - > test 자동생성
-@Service    //spring이 컨테이너에 등록한다.
+//@Service    //spring이 컨테이너에 등록한다.
 public class MemberService {
     private final MemberRepository memberRepository;
 
-    @Autowired
+//    @Autowired
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
