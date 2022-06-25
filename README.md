@@ -30,4 +30,11 @@
     - 회원 웹 기능 - 등록
         - Post , Get 메소드, Form 태그
     - 회원 웹 기능 - 조회
-      - Get method 이용하여 조회, 
+      - Get method 이용하여 조회
+- 스프링 DB 접근 기술
+    - H2 데이터베이스 설치
+        - MySQL을 보통 씀
+    - 순수 JDBC
+        - ![img_10.png](img_10.png)
+        - OCP 개방 폐쇄 원칙 (Open-Closed Principle) : 확장에는 열려 있고, 수정, 변경에는 닫혀 있다.
+        - 스프링의 DI를 사용하여 코드 수정을 하지 않고, 설정 만으로 구현 클래스를 변경 할 수 있다.
