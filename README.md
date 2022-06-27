@@ -45,3 +45,10 @@
     - Spring JdbcTemplate
         - 순수 JDBC 에서 JdbcTemplate 라이브러리 등을 사용하여 반복코드를 대부분 제거한다.
         - 그러나 SQL 은 여전히 직접 작성해야 한다. ( JPA 에서 이를 해결 가능 ) 
+    - JPA
+        - JPA 는 기본적인 SQL 을 만들어서 실행해준다.
+        - JPA 기술은 SQL과 데이터 중심에서 객체 중심의 설계로 패러다임을 전환하는 기술이다.
+        - JPA 기술은 개발 생산성을 크게 높일 수 있다.
+        - ![img_12.png](img_12.png)
+        - Spring config
+            - ![img_13.png](img_13.png)

@@ -15,6 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
 // commit을 해야지 반영이 된다. Transactional 어노테이션을 붙이면 test 이후에 rollback이 자동으로 되어서 DB에 반영이 되지 않는다.
+// springboottest + transaction 조합으로 사용한다.
 @SpringBootTest
 @Transactional
 class MemberServiceIntegrationTest {

@@ -2,12 +2,15 @@ package hello.hellospring.service;
 
 import hello.hellospring.controller.domain.Member;
 import hello.hellospring.repository.MemberRepository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
 // ctrl + shift + t - > test 자동생성
 //@Service    //spring이 컨테이너에 등록한다.
+// 여기서 사용하는 transactional은 test 에서와 달리 정상종료시 자동으로 커밋하고, 런타임 예외 시에만 롤백한다.
+@Transactional
 public class MemberService {
     private final MemberRepository memberRepository;
 
