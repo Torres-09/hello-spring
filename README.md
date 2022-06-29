@@ -52,3 +52,8 @@
         - ![img_12.png](img_12.png)
         - Spring config
             - ![img_13.png](img_13.png)
+    - 스프링 데이터 JPA
+        - 인터페이스 만으로 기본 CRUD 기능을 제공한다.
+        - 스프링 데이터 JPA 는 JPA를 편리하게 사용할 수 있도록 도와주는 라이브러리
+        - JPA와 스프링 데이터 JPA 를 기본으로 사용, 동적 쿼리는 Querydsl 라이브러리를 사용한다.
+        - 이 조합으로 해결이 어려운 것은 JPA 에서 제공하는 네이티브 쿼리를 사용하거나 JdbcTemplate 사용하면 된다.
